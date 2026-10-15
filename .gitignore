@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# Local databases and user credentials
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+users.db
+.insightsql_pro/
+
+# Uploaded data and temporary files
+uploads/
+temp/
+tmp/
+*.csv
+*.xlsx
+*.xls
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs
+*.log
